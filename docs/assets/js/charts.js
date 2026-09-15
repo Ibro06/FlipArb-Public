@@ -35,9 +35,9 @@
 
   function renderFunnel(container) {
     const stages = [
-      { label: "Raw listings", value: 120546, color: "#1f5eff" },
-      { label: "Passed initial filtering", value: 105606, color: "#0e7490" },
-      { label: "Analyzed", value: 26147, color: "#0f7a56" }
+      { label: "Raw listings", value: 120546, color: "#1457ff" },
+      { label: "Passed initial filtering", value: 105606, color: "#0d7a6f" },
+      { label: "Analyzed", value: 26147, color: "#a35b12" }
     ];
 
     const width = 720;
@@ -67,9 +67,9 @@
       svg.appendChild(el("text", {
         x: 0,
         y: y + 22,
-        fill: "#122033",
+        fill: "#1a2332",
         "font-size": "14",
-        "font-family": "IBM Plex Sans, sans-serif",
+        "font-family": "Plus Jakarta Sans, sans-serif",
         "font-weight": "600"
       }, [stage.label]));
 
@@ -79,7 +79,7 @@
         width: barMax,
         height: 28,
         rx: "8",
-        fill: "#eef2f7"
+        fill: "#ebe7df"
       }));
 
       svg.appendChild(el("rect", {
@@ -94,9 +94,9 @@
       svg.appendChild(el("text", {
         x: labelW + barMax + 12,
         y: y + 24,
-        fill: "#122033",
+        fill: "#1a2332",
         "font-size": "14",
-        "font-family": "IBM Plex Sans, sans-serif",
+        "font-family": "Plus Jakarta Sans, sans-serif",
         "font-weight": "700"
       }, [formatInt(stage.value)]));
     });
@@ -107,12 +107,12 @@
 
   function renderBudget(container) {
     const slices = [
-      { label: "New listings", value: 45, color: "#1f5eff" },
-      { label: "Ending auctions", value: 20, color: "#0f7a56" },
-      { label: "Misspelling search", value: 10, color: "#0e7490" },
-      { label: "Category feed", value: 10, color: "#6b5ce7" },
+      { label: "New listings", value: 45, color: "#1457ff" },
+      { label: "Ending auctions", value: 20, color: "#0d7a6f" },
+      { label: "Misspelling search", value: 10, color: "#3d7ea6" },
+      { label: "Category feed", value: 10, color: "#5b6fd6" },
       { label: "Seller scan", value: 10, color: "#c45c26" },
-      { label: "Refresh queue", value: 5, color: "#b45309" }
+      { label: "Refresh queue", value: 5, color: "#a35b12" }
     ];
 
     const width = 720;
@@ -164,9 +164,9 @@
       x: String(cx),
       y: String(cy - 4),
       "text-anchor": "middle",
-      fill: "#122033",
+      fill: "#1a2332",
       "font-size": "18",
-      "font-family": "IBM Plex Sans, sans-serif",
+      "font-family": "Plus Jakarta Sans, sans-serif",
       "font-weight": "700"
     }, ["100%"]));
 
@@ -174,9 +174,9 @@
       x: String(cx),
       y: String(cy + 16),
       "text-anchor": "middle",
-      fill: "#5b6b7c",
+      fill: "#5a6574",
       "font-size": "12",
-      "font-family": "IBM Plex Sans, sans-serif"
+      "font-family": "Plus Jakarta Sans, sans-serif"
     }, ["API budget"]));
 
     slices.forEach(function (slice, index) {
@@ -197,18 +197,18 @@
       svg.appendChild(el("text", {
         x: String(x + 20),
         y: String(y + 11),
-        fill: "#122033",
+        fill: "#1a2332",
         "font-size": "14",
-        "font-family": "IBM Plex Sans, sans-serif",
+        "font-family": "Plus Jakarta Sans, sans-serif",
         "font-weight": "600"
       }, [slice.label]));
 
       svg.appendChild(el("text", {
         x: String(x + 20),
         y: String(y + 30),
-        fill: "#5b6b7c",
+        fill: "#5a6574",
         "font-size": "13",
-        "font-family": "IBM Plex Sans, sans-serif"
+        "font-family": "Plus Jakarta Sans, sans-serif"
       }, [slice.value + "% of cycle budget"]));
     });
 
@@ -222,9 +222,9 @@
    */
   function simulateThompsonRounds() {
     const arms = [
-      { name: "Standard query", rate: 0.18, alpha: 1, beta: 1, color: "#1f5eff" },
-      { name: "Misspelling query", rate: 0.34, alpha: 1, beta: 1, color: "#0f7a56" },
-      { name: "Damage variant", rate: 0.26, alpha: 1, beta: 1, color: "#c45c26" }
+      { name: "Standard query", rate: 0.18, alpha: 1, beta: 1, color: "#1457ff" },
+      { name: "Misspelling query", rate: 0.34, alpha: 1, beta: 1, color: "#0d7a6f" },
+      { name: "Damage variant", rate: 0.26, alpha: 1, beta: 1, color: "#a35b12" }
     ];
 
     function seededRandom(seed) {
@@ -352,16 +352,16 @@
         y1: String(y),
         x2: String(margin.left + plotW),
         y2: String(y),
-        stroke: "#eef2f7",
+        stroke: "#ebe7df",
         "stroke-width": "1"
       }));
       svg.appendChild(el("text", {
         x: String(margin.left - 10),
         y: String(y + 4),
         "text-anchor": "end",
-        fill: "#5b6b7c",
+        fill: "#5a6574",
         "font-size": "12",
-        "font-family": "IBM Plex Sans, sans-serif"
+        "font-family": "Plus Jakarta Sans, sans-serif"
       }, [tick.toFixed(2)]));
     });
 
@@ -385,9 +385,9 @@
         x: String(groupX + (barW * arms.length) / 2),
         y: String(margin.top + plotH + 24),
         "text-anchor": "middle",
-        fill: "#5b6b7c",
+        fill: "#5a6574",
         "font-size": "12",
-        "font-family": "IBM Plex Sans, sans-serif"
+        "font-family": "Plus Jakarta Sans, sans-serif"
       }, ["Round " + snap.round]));
     });
 
@@ -406,9 +406,9 @@
       svg.appendChild(el("text", {
         x: String(x + 16),
         y: String(y),
-        fill: "#122033",
+        fill: "#1a2332",
         "font-size": "12",
-        "font-family": "IBM Plex Sans, sans-serif"
+        "font-family": "Plus Jakarta Sans, sans-serif"
       }, [arm.name]));
     });
 

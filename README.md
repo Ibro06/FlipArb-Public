@@ -165,7 +165,6 @@ The original production repository remains private because it contains operation
 * [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)
 * [`docs/LEARNING_SYSTEM.md`](docs/LEARNING_SYSTEM.md)
 * [`docs/DEMO_SCRIPT.md`](docs/DEMO_SCRIPT.md)
-* [`docs/RESUME_BULLETS.md`](docs/RESUME_BULLETS.md)
 
 ## Tech stack
 

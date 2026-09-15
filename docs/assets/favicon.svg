@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="FlipArb">
-  <rect width="64" height="64" rx="14" fill="#0f2740"/>
-  <path d="M14 44 V20 H38 V28 H24 V32 H36 V40 H24 V44 Z" fill="#2f6fed"/>
-  <circle cx="46" cy="22" r="6" fill="#1aae7a"/>
+  <rect width="64" height="64" rx="16" fill="#0d1420"/>
+  <path d="M16 44 V18 H42 V26 H26 V31 H40 V39 H26 V44 Z" fill="#fffcf7"/>
+  <circle cx="46" cy="20" r="7" fill="#1457ff"/>
 </svg>
