@@ -1,0 +1,81 @@
+listing_id,model,source,buy_price,shipping,purchase_tax,parts_cost,expected_resale,projected_profit,roi,confidence,risk_level,comp_count,listing_age_minutes,liquidity_score,lock_flag,bucket
+SYN0001,iPhone 16 Pro 256GB,new_listing,356,8,30.03,0,601,191.97,0.5392,95,Low,11,25.6,58,False,alert_ready
+SYN0002,iPhone 14 128GB,ending_auction,247,18,21.86,55,347,-9.86,-0.0399,46,Medium,4,48.7,43,False,rejected
+SYN0003,iPhone 14 128GB,misspelling,404,8,33.99,35,668,172.01,0.4258,80,Low,2,21.9,34,False,needs_review
+SYN0004,iPhone 13 128GB,misspelling,475,12,40.18,0,869,326.82,0.688,91,Medium,9,37.3,69,False,alert_ready
+SYN0005,iPhone 16 Pro 256GB,new_listing,438,0,36.14,12,553,51.86,0.1184,69,Low,2,38.3,34,False,needs_review
+SYN0006,iPhone 14 Pro 256GB,new_listing,454,18,38.94,0,593,67.06,0.1477,81,Low,10,43.9,63,False,needs_review
+SYN0007,iPhone 14 Pro 256GB,refresh_queue,519,10,43.64,0,890,302.36,0.5826,79,Medium,4,24.4,45,False,alert_ready
+SYN0008,iPhone 15 Pro 256GB,seller_scan,372,12,31.68,55,642,156.32,0.4202,94,Low,11,8.8,81,False,alert_ready
+SYN0009,iPhone 14 Pro 256GB,misspelling,637,12,53.54,35,758,5.46,0.0086,41,Medium,4,5.9,44,False,rejected
+SYN0010,iPhone 14 128GB,ending_auction,546,12,46.04,55,752,77.96,0.1428,78,Medium,10,58.3,58,False,needs_review
+SYN0011,iPhone 13 128GB,misspelling,682,18,57.75,35,869,61.25,0.0898,67,Low,2,27.5,46,False,needs_review
+SYN0012,iPhone 14 Pro 256GB,refresh_queue,347,0,28.63,25,502,86.37,0.2489,95,Medium,11,9.6,82,False,alert_ready
+SYN0013,iPhone 15 Pro 256GB,seller_scan,581,0,47.93,0,933,289.07,0.4975,91,Low,6,14.8,61,False,alert_ready
+SYN0014,iPhone 13 128GB,misspelling,339,15,29.21,0,390,-8.21,-0.0242,49,Low,3,33.2,51,False,rejected
+SYN0015,iPhone 15 Pro 256GB,new_listing,457,18,39.19,12,536,-5.19,-0.0114,51,Low,12,40.5,69,False,rejected
+SYN0016,iPhone 15 Pro 256GB,ending_auction,335,10,28.46,0,573,184.54,0.5509,95,Low,10,13.6,60,False,alert_ready
+SYN0017,iPhone 13 128GB,new_listing,290,0,23.93,12,352,11.07,0.0382,57,Low,5,32.6,66,False,rejected
+SYN0018,iPhone 15 Pro 256GB,ending_auction,453,12,38.36,12,568,37.64,0.0831,40,Medium,2,21.6,36,False,needs_review
+SYN0019,iPhone 16 Pro 256GB,new_listing,219,18,19.55,35,420,113.45,0.518,82,Low,2,32.4,27,False,needs_review
+SYN0020,iPhone 14 Pro 256GB,ending_auction,265,15,23.1,0,397,78.9,0.2977,89,High,1,50.2,25,False,needs_review
+SYN0021,iPhone 14 128GB,new_listing,557,12,46.94,0,817,186.06,0.334,85,Low,3,23.7,57,False,alert_ready
+SYN0022,iPhone 16 Pro 256GB,refresh_queue,668,12,56.1,0,889,137.9,0.2064,83,Low,4,4.0,66,False,alert_ready
+SYN0023,iPhone 16 Pro 256GB,new_listing,267,15,23.27,0,371,50.73,0.19,71,High,1,11.6,42,True,needs_review
+SYN0024,iPhone 14 128GB,new_listing,535,15,45.38,0,903,292.62,0.547,88,Low,10,35.2,74,False,alert_ready
+SYN0025,iPhone 14 Pro 256GB,new_listing,378,12,32.18,0,641,203.82,0.5392,97,Low,11,19.3,82,False,alert_ready
+SYN0026,iPhone 13 128GB,ending_auction,787,0,64.93,12,896,17.07,0.0217,51,Low,9,21.3,60,False,needs_review
+SYN0027,iPhone 14 Pro 256GB,new_listing,627,18,53.21,25,768,29.79,0.0475,57,Medium,10,40.2,75,False,needs_review
+SYN0028,iPhone 16 Pro 256GB,new_listing,274,0,22.61,0,457,145.39,0.5306,91,Medium,5,43.2,49,False,alert_ready
+SYN0029,iPhone 14 Pro 256GB,ending_auction,487,0,40.18,0,577,34.82,0.0715,53,Medium,11,3.1,68,False,needs_review
+SYN0030,iPhone 16 Pro 256GB,refresh_queue,379,15,32.51,55,485,-11.51,-0.0304,47,Low,9,56.7,80,False,rejected
+SYN0031,iPhone 15 Pro 256GB,new_listing,503,8,42.16,55,698,74.84,0.1488,63,Low,3,54.0,44,False,needs_review
+SYN0032,iPhone 14 128GB,misspelling,269,15,23.43,55,425,47.57,0.1768,73,High,10,14.6,63,False,needs_review
+SYN0033,iPhone 14 128GB,seller_scan,196,10,17.0,55,345,52.0,0.2653,90,Low,11,47.3,61,False,alert_ready
+SYN0034,iPhone 13 128GB,seller_scan,314,12,26.89,35,547,144.11,0.4589,90,Low,5,39.8,55,False,alert_ready
+SYN0035,iPhone 13 128GB,refresh_queue,383,15,32.84,55,605,104.16,0.272,95,Low,11,2.1,66,False,alert_ready
+SYN0036,iPhone 14 Pro 256GB,new_listing,618,18,52.47,35,930,191.53,0.3099,96,High,7,7.4,61,False,alert_ready
+SYN0037,iPhone 13 128GB,misspelling,223,15,19.64,12,321,36.36,0.163,53,Low,6,40.0,53,False,needs_review
+SYN0038,iPhone 16 Pro 256GB,category_feed,434,18,37.29,55,627,67.71,0.156,77,Medium,6,33.5,49,False,needs_review
+SYN0039,iPhone 15 128GB,misspelling,365,10,30.94,55,498,22.06,0.0604,47,Low,9,13.0,76,False,needs_review
+SYN0040,iPhone 14 Pro 256GB,ending_auction,584,15,49.42,74,772,34.58,0.0592,49,Medium,12,17.4,79,False,needs_review
+SYN0041,iPhone 14 Pro 256GB,new_listing,423,8,35.56,12,560,66.44,0.1571,63,Low,3,59.0,62,False,needs_review
+SYN0042,iPhone 13 128GB,ending_auction,521,18,44.47,55,909,255.53,0.4905,93,Low,8,39.5,58,False,alert_ready
+SYN0043,iPhone 13 128GB,category_feed,308,18,26.89,74,544,102.11,0.3315,87,Low,1,51.0,37,False,needs_review
+SYN0044,iPhone 15 128GB,misspelling,647,12,54.37,55,892,108.63,0.1679,78,High,9,44.7,73,False,needs_review
+SYN0045,iPhone 14 128GB,category_feed,476,15,40.51,74,603,-17.51,-0.0368,50,Low,11,5.1,67,False,rejected
+SYN0046,iPhone 14 Pro 256GB,new_listing,463,8,38.86,12,873,336.14,0.726,89,Medium,7,4.3,56,False,alert_ready
+SYN0047,iPhone 15 128GB,new_listing,433,12,36.71,0,531,34.29,0.0792,53,Low,10,56.6,67,False,needs_review
+SYN0048,iPhone 15 128GB,ending_auction,706,8,58.91,74,879,17.09,0.0242,43,Low,4,2.2,53,False,needs_review
+SYN0049,iPhone 15 128GB,misspelling,677,15,57.09,0,798,33.91,0.0501,56,Medium,7,2.1,63,False,needs_review
+SYN0050,iPhone 15 128GB,new_listing,377,8,31.76,74,586,80.24,0.2128,92,Medium,6,23.1,67,False,alert_ready
+SYN0051,iPhone 15 128GB,new_listing,273,18,24.01,0,403,72.99,0.2674,90,High,6,47.0,63,True,needs_review
+SYN0052,iPhone 13 128GB,seller_scan,429,15,36.63,0,524,28.37,0.0661,41,Low,4,7.3,49,False,needs_review
+SYN0053,iPhone 14 Pro 256GB,category_feed,358,18,31.02,0,491,68.98,0.1927,67,Low,3,2.0,52,False,needs_review
+SYN0054,iPhone 15 128GB,new_listing,276,18,24.26,12,523,177.74,0.644,83,High,2,36.2,26,False,needs_review
+SYN0055,iPhone 15 Pro 256GB,category_feed,474,18,40.59,35,675,92.41,0.195,71,Medium,2,1.3,36,False,needs_review
+SYN0056,iPhone 13 128GB,new_listing,511,12,43.15,0,690,108.85,0.213,89,Medium,7,57.9,51,False,alert_ready
+SYN0057,iPhone 15 Pro 256GB,category_feed,529,18,45.13,25,796,163.87,0.3098,90,Medium,6,5.7,57,False,alert_ready
+SYN0058,iPhone 15 128GB,ending_auction,444,12,37.62,35,708,164.38,0.3702,86,Low,3,48.0,53,False,alert_ready
+SYN0059,iPhone 15 Pro 256GB,misspelling,428,15,36.55,12,602,95.45,0.223,82,Medium,2,29.6,47,False,needs_review
+SYN0060,iPhone 15 128GB,ending_auction,550,0,45.38,0,822,211.62,0.3848,90,Low,5,15.0,64,False,alert_ready
+SYN0061,iPhone 15 128GB,ending_auction,444,18,38.12,35,672,121.88,0.2745,94,Low,6,15.5,46,False,alert_ready
+SYN0062,iPhone 14 Pro 256GB,new_listing,747,18,63.11,0,868,24.89,0.0333,42,Medium,4,17.0,61,False,needs_review
+SYN0063,iPhone 15 Pro 256GB,ending_auction,344,10,29.21,12,422,11.79,0.0343,49,Low,6,42.6,47,False,rejected
+SYN0064,iPhone 13 128GB,ending_auction,333,12,28.46,0,449,60.54,0.1818,72,Low,1,29.0,33,False,needs_review
+SYN0065,iPhone 13 128GB,new_listing,439,0,36.22,55,809,263.78,0.6009,88,Medium,8,41.3,62,False,alert_ready
+SYN0066,iPhone 15 Pro 256GB,seller_scan,357,0,29.45,55,407,-49.45,-0.1385,56,Medium,10,13.9,74,False,rejected
+SYN0067,iPhone 15 128GB,new_listing,807,10,67.4,0,922,22.6,0.028,48,High,10,12.9,64,False,needs_review
+SYN0068,iPhone 13 128GB,new_listing,352,8,29.7,0,497,92.3,0.2622,94,Medium,7,28.5,44,False,alert_ready
+SYN0069,iPhone 16 Pro 256GB,new_listing,413,8,34.73,25,784,288.27,0.698,96,Medium,11,56.1,71,False,alert_ready
+SYN0070,iPhone 14 128GB,ending_auction,481,0,39.68,0,592,56.32,0.1171,67,Medium,3,49.5,52,False,needs_review
+SYN0071,iPhone 15 128GB,misspelling,628,15,53.05,74,732,-53.05,-0.0845,48,Medium,8,53.4,81,False,rejected
+SYN0072,iPhone 14 Pro 256GB,new_listing,479,15,40.76,0,554,4.24,0.0089,51,Medium,11,45.9,63,False,rejected
+SYN0073,iPhone 16 Pro 256GB,new_listing,343,15,29.54,55,604,146.46,0.427,94,High,11,28.5,71,False,alert_ready
+SYN0074,iPhone 16 Pro 256GB,new_listing,302,18,26.4,74,484,48.6,0.1609,81,High,5,48.9,60,True,needs_review
+SYN0075,iPhone 13 128GB,new_listing,354,12,30.2,0,651,239.8,0.6774,95,Low,11,3.7,74,False,alert_ready
+SYN0076,iPhone 15 128GB,ending_auction,214,15,18.89,0,372,109.11,0.5099,94,High,5,29.3,43,False,alert_ready
+SYN0077,iPhone 15 Pro 256GB,category_feed,297,0,24.5,55,482,90.5,0.3047,82,High,2,54.8,37,False,needs_review
+SYN0078,iPhone 16 Pro 256GB,category_feed,709,10,59.32,25,830,11.68,0.0165,54,High,7,15.0,60,False,rejected
+SYN0079,iPhone 14 128GB,seller_scan,658,8,54.95,0,840,104.05,0.1581,77,Low,5,47.4,51,False,needs_review
+SYN0080,iPhone 14 Pro 256GB,misspelling,663,18,56.18,74,921,94.82,0.143,70,Medium,3,21.0,60,False,needs_review
