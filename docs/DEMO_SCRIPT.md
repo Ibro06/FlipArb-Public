@@ -2,7 +2,7 @@
 
 ## Opening
 
-"FlipArb is a marketplace intelligence system I built from my experience repairing and reselling phones. It combines marketplace data, repair pricing, device status checks, AI assisted analysis, and Bayesian learning to identify opportunities that are worth reviewing quickly."
+"FlipArb is a marketplace intelligence system I built from experience repairing and reselling phones. It combines marketplace data, repair pricing, device status checks, AI assisted analysis, and Bayesian learning to identify opportunities worth reviewing quickly."
 
 ## Sourcing view
 
@@ -18,12 +18,12 @@
 
 ## Scale
 
-"Across development and testing, the project scanned more than 200,000 listings. One captured Deal Engine session recorded 120,546 raw listings and 26,147 listings that reached the analysis stage."
+"Across development and testing, the project scanned more than 200,000 listings. One recorded Deal Engine session contained 120,546 raw listings, 105,606 listings that passed initial filtering, and 26,147 listings that reached analysis."
 
 ## Real validation
 
-"The project was not only a simulation. I purchased devices surfaced by the system, had them shipped to me, and later resold them. That gave me a real feedback loop between the analytical output and resale decisions."
+"The project was not only a simulation. I purchased devices surfaced by the system, had them shipped to me, and later resold them. That created a real feedback loop between analytical output and resale decisions."
 
 ## Close
 
-"FlipArb was developed through the University of Delaware VentureOn entrepreneurship program and combines my business analytics background with Python, JavaScript, APIs, Bayesian learning, and real resale operations."
+"FlipArb was developed through the University of Delaware VentureOn entrepreneurship program and combines business analytics with Python, JavaScript, APIs, Bayesian learning, and real resale operations."

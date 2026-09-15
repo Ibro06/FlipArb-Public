@@ -8,44 +8,44 @@ FlipArb was designed as an opportunity intelligence system rather than a simple 
 
 ```text
 User alert
-    ↓
+    |
 Query planning
-    ↓
+    |
 Marketplace sources
-    ↓
+    |
 Cheap viability screen
-    ↓
+    |
 Cache and duplicate state
-    ↓
+    |
 Rule based verification
-    ↓
+    |
 AI assisted verification
-    ↓
+    |
 Comparable sales
-    ↓
+    |
 Repair pricing and device status
-    ↓
+    |
 Profit, ROI, confidence, risk, liquidity
-    ↓
+    |
 Opportunity classification
-    ↓
+    |
 Dashboard and notifications
-    ↓
+    |
 Query performance feedback
 ```
 
 ## Scanner sources
 
-The scanner can draw opportunities from several sources.
+The scanner can draw opportunities from several sources. Limited API resources were allocated across those strategies in a documented cycle budget:
 
-* New listings
-* Ending auctions
-* Misspelling searches
-* Category browsing
-* Seller inventory checks
-* Refresh checks for near miss opportunities
+* New listings: 45 percent
+* Ending auctions: 20 percent
+* Misspelling search: 10 percent
+* Category feed: 10 percent
+* Seller scan: 10 percent
+* Refresh queue: 5 percent
 
-Each source has a budget share and is monitored for efficiency.
+Each source is monitored for efficiency so weak paths do not permanently consume scarce API budget.
 
 ## Cheap viability screen
 
@@ -92,7 +92,7 @@ A listing can be classified as alert ready, needs review, or rejected.
 
 Query performance is recorded after each scan cycle. Thompson Sampling uses that history to favor search queries that have produced higher quality opportunities. Daily decay reduces the influence of stale history and time learning tracks useful hours and weekdays.
 
-See [`LEARNING_SYSTEM.md`](LEARNING_SYSTEM.md) for the full public explanation.
+See [LEARNING_SYSTEM.md](LEARNING_SYSTEM.md) for the full public explanation.
 
 ## API efficiency
 

@@ -14,3 +14,5 @@ Do not commit:
 * secret business credentials
 
 The sample dataset in this repository is synthetic and contains no production marketplace records.
+
+The public demonstration code, notebook, and GitHub Pages site are designed for recruiter review. They summarize architecture and methods without publishing private production logic.

@@ -6,8 +6,8 @@ The public examples in this repository are intentionally simplified and use synt
 
 Included examples:
 
-* simplified opportunity scoring
-* Bayesian Thompson Sampling query selection
-* synthetic marketplace analysis notebook
+* simplified opportunity scoring in `src/scoring_demo.py`
+* Bayesian Thompson Sampling query selection in `src/thompson_sampling_demo.py`
+* synthetic marketplace analysis notebook in `notebooks/fliparb_analysis.ipynb`
 
 The public examples do not contain API keys, OAuth tokens, private endpoints, webhook addresses, database credentials, or production user data.

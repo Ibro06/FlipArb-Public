@@ -49,7 +49,7 @@ When tracked auctions end, the outcome can feed back into query performance. Thi
 
 ## What this is
 
-This is an online learning and adaptive resource allocation system. Thompson Sampling is a Bayesian decision method commonly used for multi armed bandit problems.
+This is an online learning and adaptive resource allocation system. Thompson Sampling is a Bayesian decision method commonly used for multi armed bandit problems. It can also be described as Bayesian online learning or adaptive search optimization.
 
 ## What this is not
 
@@ -57,4 +57,4 @@ The public project does not claim that FlipArb trained a neural network or a lar
 
 ## Public demonstration
 
-See [`../src/thompson_sampling_demo.py`](../src/thompson_sampling_demo.py) for a small reproducible example using synthetic query outcomes.
+See [`../src/thompson_sampling_demo.py`](../src/thompson_sampling_demo.py) for a small reproducible example using synthetic query outcomes. The portfolio website also includes a clearly labeled synthetic chart of the same idea.
